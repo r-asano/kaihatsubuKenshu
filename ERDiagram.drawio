@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T04:06:08.940Z" agent="5.0 (Windows)" etag="xZdCKeZNy38e-5ePxRgB" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T04:52:03.457Z" agent="5.0 (Windows)" etag="nB4Uizj7EHWcL_nqDscn" version="13.10.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="975" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -54,6 +54,9 @@
         </mxCell>
         <mxCell id="sZYpA-2bQH0dTaHcQFou-7" value="&lt;div&gt;顧客IDは連番でもいい&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;テーブルも1つのみなので&lt;/div&gt;&lt;div&gt;特に必要ないかも&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;存在するならそれを利用&lt;br&gt;するのも手&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sZYpA-2bQH0dTaHcQFou-6">
           <mxGeometry width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sZYpA-2bQH0dTaHcQFou-11" value="&lt;font style=&quot;font-size: 16px&quot;&gt;証明書DB&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="95" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
