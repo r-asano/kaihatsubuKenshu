@@ -1,14 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T01:11:11.976Z" agent="5.0 (Windows)" etag="2JTyKS1jOwMbw0ir1FGM" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T04:28:36.013Z" agent="5.0 (Windows)" etag="C_RLU6bNz8nRu4eyd9nv" version="13.10.6" type="github">
   <diagram id="8QGsJyatxv-ushCV1igj" name="Page-1">
     <mxGraphModel dx="975" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="14146tq5jMcz0m6GexRM-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="120" width="30" height="60" as="geometry" />
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-2" value="メール定時送信" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=30;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="520" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="14146tq5jMcz0m6GexRM-2" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="10" width="410" height="430" as="geometry" />
+        <mxCell id="14146tq5jMcz0m6GexRM-1" value="&lt;div&gt;ca-admin&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-3" value="Webアプリ" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=30;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="520" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-6" value="過去ログ検索" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=30;" vertex="1" parent="1">
+          <mxGeometry x="215" y="425" width="410" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-7" value="全数検索" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=30;" vertex="1" parent="1">
+          <mxGeometry x="215" y="690" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-11" value="&lt;div&gt;定時実行された結果ログをもとに&lt;/div&gt;&lt;div&gt;メールが作成・送信される&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="120" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-12" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14146tq5jMcz0m6GexRM-1" target="LnJ-kpLYGTrpdKbmM1H4-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-20" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-21" value="&lt;div&gt;対象日のG3証明書の残存数・統計情報&lt;/div&gt;&lt;div&gt;を検索する&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="480" width="243" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-22" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnJ-kpLYGTrpdKbmM1H4-20" target="LnJ-kpLYGTrpdKbmM1H4-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-23" value="&lt;div&gt;対象テーブルのすべての証明書の状態（G3,G4,他社発行,エラー）・統計情報&lt;/div&gt;&lt;div&gt;を検索する&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="293" y="730" width="241.5" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LnJ-kpLYGTrpdKbmM1H4-24" value="" style="endArrow=none;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnJ-kpLYGTrpdKbmM1H4-20" target="LnJ-kpLYGTrpdKbmM1H4-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="760" as="sourcePoint" />
+            <mxPoint x="410" y="710" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
