@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T04:04:35.769Z" agent="5.0 (Windows)" etag="G4t326hrbu1CGj6WTcNj" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T04:06:08.940Z" agent="5.0 (Windows)" etag="xZdCKeZNy38e-5ePxRgB" version="13.10.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="975" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
           <mxGeometry y="60" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-18" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-18" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-19" value="CN  char(255) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
@@ -50,9 +50,9 @@
           <mxGeometry x="280" y="360" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sZYpA-2bQH0dTaHcQFou-6" value="" style="shape=note2;size=25;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;container=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="30" width="160" height="130" as="geometry" />
+          <mxGeometry x="580" y="400" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="sZYpA-2bQH0dTaHcQFou-7" value="&lt;div&gt;顧客IDは連番でもいい&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;テーブルも1つのみなので&lt;/div&gt;&lt;div&gt;特に必要ないかも&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sZYpA-2bQH0dTaHcQFou-6">
+        <mxCell id="sZYpA-2bQH0dTaHcQFou-7" value="&lt;div&gt;顧客IDは連番でもいい&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;テーブルも1つのみなので&lt;/div&gt;&lt;div&gt;特に必要ないかも&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;存在するならそれを利用&lt;br&gt;するのも手&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sZYpA-2bQH0dTaHcQFou-6">
           <mxGeometry width="160" height="130" as="geometry" />
         </mxCell>
       </root>
