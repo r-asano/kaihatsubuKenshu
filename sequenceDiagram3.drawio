@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T03:07:24.580Z" agent="5.0 (Windows)" etag="VOYroef5WEkBRr2swYqZ" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-08T03:08:23.626Z" agent="5.0 (Windows)" etag="USE_A4cls9HyPmxtNOp1" version="13.10.6" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="650" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="975" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
         <mxCell id="xxuIDIg4jo0FS7Cl-DyI-9" value="全数検索&lt;br&gt;ログファイル" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="610" y="350" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xxuIDIg4jo0FS7Cl-DyI-12" value="&lt;div&gt;全数検索要求のたびにログファイル作成＆保存をする方法はかなり重そう&lt;/div&gt;&lt;div&gt;、、、というよりディレイ挟む関係で要求出してから何十時間も待つ可能性が高い&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="xxuIDIg4jo0FS7Cl-DyI-12" value="&lt;div&gt;全数検索要求のたびにログファイル作成＆保存をする方法はかなり重そう&lt;/div&gt;&lt;div&gt;、、、というよりディレイ挟む関係で要求出してから何十時間も待つ可能性が高い&lt;/div&gt;&lt;div&gt;時間的な問題はどうしても避けられないのでとりあえずこれで&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="450" y="740" width="470" height="80" as="geometry" />
         </mxCell>
       </root>
