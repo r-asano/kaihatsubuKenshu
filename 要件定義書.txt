@@ -82,31 +82,28 @@ opensslコマンドを使用して情報取得するようなメソッドが必�
 ...depth:1での指定事業者名をデリミタなどを利用して取得
 ...JPDirect案件だとどうなる？
 
-例１：www.yahoo.co.jp
-[asano@off-cpu08 ~]$ openssl s_client -connect www.yahoo.co.jp:443
-CONNECTED(00000003)
-depth=3 C = JP, O = SECOM Trust.net, OU = Security Communication RootCA1
-verify return:1
-depth=2 C = JP, O = "SECOM Trust Systems CO.,LTD.", OU = Security Communication RootCA2
-verify return:1
-depth=1 C = JP, O = "Cybertrust Japan Co., Ltd.", CN = Cybertrust Japan SureServer CA G4
-verify return:1
-depth=0 C = JP, ST = Tokyo, L = Chiyoda-ku, O = Yahoo Japan Corporation, CN = edge01.yahoo.co.jp
-verify return:1
+例：jprs.co.jp
+bash-4.2$ openssl s_client -connect jprs.co.jp:443 < /dev/null 2> /dev/null | openssl x509 -text
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            4a:2e:3e:79:8d:78:03:c2:0d:60:8e:7a:48:ab:50:b1
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=JP, O=Japan Registry Services Co., Ltd., CN=JPRS Organization Validation Authority - G2
+        Validity
+            Not Before: Apr 12 04:20:40 2019 GMT
+            Not After : Apr 30 14:59:59 2021 GMT
+        Subject: C=JP, ST=TOKYO, L=CHIYODA, O=Japan Registry Services Co., Ltd., CN=jprs.co.jp
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
 
-例２：yahoo.co.jp
-[asano@off-cpu08 ~]$ openssl s_client -connect yahoo.co.jp:443
-CONNECTED(00000003)
-depth=3 C = JP, O = SECOM Trust.net, OU = Security Communication RootCA1
-verify return:1
-depth=2 C = JP, O = "SECOM Trust Systems CO.,LTD.", OU = Security Communication RootCA2
-verify return:1
-depth=1 C = JP, O = "Cybertrust Japan Co., Ltd.", CN = Cybertrust Japan SureServer CA G4
-verify return:1
-depth=0 C = JP, ST = Tokyo, L = Chiyoda-ku, O = Yahoo Japan Corporation, CN = edge01.yahoo.co.jp
-verify return:1
 
-**分類メソッド
+**G3証明書検証メソッド
+
+DBからCNを引っ張ってきて、opensslコマンドを実行
+
 G3 ＆ エラーフラグが立っているレコードのみをDBから呼び出し
 
 G3の場合（openssl -> デリミタをカンマとして「JPRS G3」を抽出） -> カウント＆フラグそのまま
