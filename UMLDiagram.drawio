@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-08T05:19:30.167Z" agent="5.0 (Windows)" etag="HItCAjUVJxN3JG4h7ArB" version="13.11.0" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-14T02:00:07.709Z" agent="5.0 (Windows)" etag="1IfLLqsz7CTz7ZBLZmkO" version="14.0.1" type="github" pages="7">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="975" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="520" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -134,10 +134,10 @@
         <mxCell id="HY1Ta8MhCHpQZ7dJACeX-9" value="ログファイル" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="755" y="470" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2H8nqy1BVekZAXd6qGj1-1" value="" style="shape=note2;size=25;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;container=1;" vertex="1" parent="1">
+        <mxCell id="2H8nqy1BVekZAXd6qGj1-1" value="" style="shape=note2;size=25;childLayout=stackLayout;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;container=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="660" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="2H8nqy1BVekZAXd6qGj1-4" value="&lt;div&gt;エラーログは別ログファイルで&lt;/div&gt;&lt;div&gt;出力するのがよさそう&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2H8nqy1BVekZAXd6qGj1-1">
+        <mxCell id="2H8nqy1BVekZAXd6qGj1-4" value="&lt;div&gt;エラーログは別ログファイルで&lt;/div&gt;&lt;div&gt;出力するのがよさそう&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="2H8nqy1BVekZAXd6qGj1-1" vertex="1">
           <mxGeometry width="150" height="130" as="geometry" />
         </mxCell>
       </root>
@@ -484,7 +484,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Gxcy3KJ_DKWbpBX847Wx" name="システム構成図">
-    <mxGraphModel dx="975" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="520" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-0" />
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-1" parent="bFDw2gZ5I6HlA9HLi3pO-0" />
@@ -570,10 +570,10 @@
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-27" value="" style="group" parent="bFDw2gZ5I6HlA9HLi3pO-26" vertex="1" connectable="0">
           <mxGeometry width="290" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-1" value="" style="group" vertex="1" connectable="0" parent="bFDw2gZ5I6HlA9HLi3pO-27">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-1" value="" style="group" parent="bFDw2gZ5I6HlA9HLi3pO-27" vertex="1" connectable="0">
           <mxGeometry y="-20" width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-2" value="" style="group" vertex="1" connectable="0" parent="p5inAA2ZX-edE1yB6oM3-1">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-2" value="" style="group" parent="p5inAA2ZX-edE1yB6oM3-1" vertex="1" connectable="0">
           <mxGeometry width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-28" value="&lt;div&gt;ログファイル&lt;/div&gt;&lt;div&gt;保管フォルダ&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="p5inAA2ZX-edE1yB6oM3-2" vertex="1">
@@ -582,7 +582,7 @@
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-29" value="/logs/sslcert-G3/sslcert-G3.log.2020-**-**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p5inAA2ZX-edE1yB6oM3-2" vertex="1">
           <mxGeometry x="40" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-0" value="/logs/sslcert-G3/error.sslcert-G3.log.2020-**-**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="p5inAA2ZX-edE1yB6oM3-2">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-0" value="/logs/sslcert-G3/error.sslcert-G3.log.2020-**-**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p5inAA2ZX-edE1yB6oM3-2" vertex="1">
           <mxGeometry x="40" y="20" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-35" value="" style="group" parent="bFDw2gZ5I6HlA9HLi3pO-1" vertex="1" connectable="0">
@@ -612,25 +612,51 @@
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-44" value="PostgreSQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="bFDw2gZ5I6HlA9HLi3pO-42" vertex="1">
           <mxGeometry x="40" y="10" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-8" value="" style="group" vertex="1" connectable="0" parent="bFDw2gZ5I6HlA9HLi3pO-1">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-8" value="" style="group" parent="bFDw2gZ5I6HlA9HLi3pO-1" vertex="1" connectable="0">
           <mxGeometry x="399.51" y="760" width="290" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-3" value="" style="group" vertex="1" connectable="0" parent="p5inAA2ZX-edE1yB6oM3-8">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-3" value="" style="group" parent="p5inAA2ZX-edE1yB6oM3-8" vertex="1" connectable="0">
           <mxGeometry width="290" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-4" value="&lt;div&gt;ログファイル&lt;/div&gt;&lt;div&gt;保管フォルダ&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="p5inAA2ZX-edE1yB6oM3-3">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-4" value="&lt;div&gt;ログファイル&lt;/div&gt;&lt;div&gt;保管フォルダ&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="p5inAA2ZX-edE1yB6oM3-3" vertex="1">
           <mxGeometry y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-6" value="/logs/sslcert-G3/error.sslcert-G3.log.2020-**-**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="p5inAA2ZX-edE1yB6oM3-8">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-6" value="/logs/sslcert-G3/error.sslcert-G3.log.2020-**-**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p5inAA2ZX-edE1yB6oM3-8" vertex="1">
           <mxGeometry x="40" y="140" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="p5inAA2ZX-edE1yB6oM3-5" value="/logs/sslcert-G3/sslcert-G3.log.2020-**-**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="p5inAA2ZX-edE1yB6oM3-8">
+        <mxCell id="p5inAA2ZX-edE1yB6oM3-5" value="/logs/sslcert-G3/sslcert-G3.log.2020-**-**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="p5inAA2ZX-edE1yB6oM3-8" vertex="1">
           <mxGeometry x="40.49000000000001" y="120" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bFDw2gZ5I6HlA9HLi3pO-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=open;endFill=0;strokeColor=#808080;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="bFDw2gZ5I6HlA9HLi3pO-1" source="bFDw2gZ5I6HlA9HLi3pO-11" target="p5inAA2ZX-edE1yB6oM3-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="880" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xMQuzadZgTbtWNMMuwl1" name="画面構成図">
+    <mxGraphModel dx="520" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-0" />
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-1" parent="YtEUYzlKoqCMShlGBFVR-0" />
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-2" value="&lt;div&gt;カレンダー選択&lt;/div&gt;&lt;div&gt;（デフォルトを最新日）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YtEUYzlKoqCMShlGBFVR-1">
+          <mxGeometry x="40" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-3" value="&lt;div&gt;指定事業者選択&lt;/div&gt;（ALLをデフォルト）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YtEUYzlKoqCMShlGBFVR-1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-4" value="&lt;div&gt;tableで表示&lt;/div&gt;&lt;div&gt;CN、証明書タイプ、指定事業者、発行日、失効日&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YtEUYzlKoqCMShlGBFVR-1">
+          <mxGeometry x="40" y="330" width="430" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-5" value="統計情報" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YtEUYzlKoqCMShlGBFVR-1">
+          <mxGeometry x="40" y="240" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-6" value="get" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YtEUYzlKoqCMShlGBFVR-1">
+          <mxGeometry x="40" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-7" value="reset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YtEUYzlKoqCMShlGBFVR-1">
+          <mxGeometry x="120" y="190" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
