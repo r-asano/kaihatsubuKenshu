@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T05:15:44.261Z" agent="5.0 (Windows)" etag="hs4VoX9DD6MmyFpOUmrx" version="14.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-15T05:17:59.145Z" agent="5.0 (Windows)" etag="frxDlkUWn_NpiPXWQmYj" version="14.0.1" type="github" pages="6">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="684" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -222,7 +222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nB8A7hhR7iNcvrRYf5c8" name="ER図">
-    <mxGraphModel dx="684" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-1" parent="xNdc0RXTt3TWQ51rv9bm-0" />
@@ -359,7 +359,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="d06XfQ5YzdmS2I4Hj7Y6" name="ユースケース図">
-    <mxGraphModel dx="684" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="z-T4OEhkut_5lJJbPGwb-0" />
         <mxCell id="z-T4OEhkut_5lJJbPGwb-1" parent="z-T4OEhkut_5lJJbPGwb-0" />
@@ -427,7 +427,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xMQuzadZgTbtWNMMuwl1" name="画面構成図">
-    <mxGraphModel dx="684" dy="537" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="YtEUYzlKoqCMShlGBFVR-0" />
         <mxCell id="YtEUYzlKoqCMShlGBFVR-1" parent="YtEUYzlKoqCMShlGBFVR-0" />
@@ -485,7 +485,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7cvwx3Lbqf1EfOnwhH9n-2" value="認証管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="30" y="1200" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="pGGhC-z__XLMcfg5fvzm-1" source="7cvwx3Lbqf1EfOnwhH9n-4" target="7cvwx3Lbqf1EfOnwhH9n-22">
           <mxGeometry relative="1" as="geometry" />
@@ -559,19 +559,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7cvwx3Lbqf1EfOnwhH9n-53" value="Web I/F" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="185.5" y="1190" width="120" height="80" as="geometry" />
+          <mxGeometry x="185.5" y="1240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7cvwx3Lbqf1EfOnwhH9n-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="pGGhC-z__XLMcfg5fvzm-1" source="7cvwx3Lbqf1EfOnwhH9n-56" target="7cvwx3Lbqf1EfOnwhH9n-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7cvwx3Lbqf1EfOnwhH9n-56" value="&lt;div&gt;ログ取得&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="335.5" y="1200" width="120" height="60" as="geometry" />
+          <mxGeometry x="335.5" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7cvwx3Lbqf1EfOnwhH9n-86" value="※最終日のみ全数検査が行われる" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
           <mxGeometry x="259" y="440" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7cvwx3Lbqf1EfOnwhH9n-87" value="対象ログ表示" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="660" y="1190" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="1240" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7cvwx3Lbqf1EfOnwhH9n-92" value="" style="group" vertex="1" connectable="0" parent="pGGhC-z__XLMcfg5fvzm-1">
           <mxGeometry x="626" y="720" width="123" height="70" as="geometry" />
@@ -622,19 +622,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-37" value="証明書&lt;br&gt;&lt;div&gt;テーブル&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="437" y="870" width="106" height="80" as="geometry" />
+          <mxGeometry x="438" y="900" width="106" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="pGGhC-z__XLMcfg5fvzm-1" source="ljKvz7R1VZTbYrcuCCBu-39" target="7cvwx3Lbqf1EfOnwhH9n-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-39" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;error.sslcert-G3.log.yyyy-MM-dd&lt;/div&gt;&lt;div&gt;ログファイル&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="450" y="960" width="80" height="100" as="geometry" />
+          <mxGeometry x="451" y="990" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="pGGhC-z__XLMcfg5fvzm-1" source="ljKvz7R1VZTbYrcuCCBu-40" target="7cvwx3Lbqf1EfOnwhH9n-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-40" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sslcert-G3.log.yyyy-MM-dd&lt;/div&gt;&lt;div&gt;ログファイル&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="450" y="1070" width="77" height="100" as="geometry" />
+          <mxGeometry x="451" y="1100" width="77" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-49" value="証明書情報の取得とテーブルの更新" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
           <mxGeometry x="320" y="260" width="210" height="20" as="geometry" />
@@ -643,13 +643,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-50" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;error.sslcert-G3.log.yyyy-MM-dd&lt;/div&gt;&lt;div&gt;ログファイル&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="450" y="1290" width="80" height="100" as="geometry" />
+          <mxGeometry x="450" y="1340" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="pGGhC-z__XLMcfg5fvzm-1" source="ljKvz7R1VZTbYrcuCCBu-51" target="7cvwx3Lbqf1EfOnwhH9n-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ljKvz7R1VZTbYrcuCCBu-51" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;sslcert-G3.log.yyyy-MM-dd&lt;/div&gt;&lt;div&gt;ログファイル&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
-          <mxGeometry x="450" y="1400" width="77" height="100" as="geometry" />
+          <mxGeometry x="450" y="1450" width="77" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wzOCOtRMVPl0sCIylrzH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="pGGhC-z__XLMcfg5fvzm-1" source="wzOCOtRMVPl0sCIylrzH-0" target="ljKvz7R1VZTbYrcuCCBu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wzOCOtRMVPl0sCIylrzH-0" value="指定事業者&lt;br&gt;&lt;div&gt;テーブル&lt;/div&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="pGGhC-z__XLMcfg5fvzm-1">
+          <mxGeometry x="571" y="900" width="106" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
