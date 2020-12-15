@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T06:03:30.593Z" agent="5.0 (Windows)" etag="sBFNj4CMjDiuvqGM-b9V" version="14.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-15T06:18:30.362Z" agent="5.0 (Windows)" etag="Ls454NzIq30x6KbKVEJr" version="14.0.1" type="github" pages="6">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -8,13 +8,7 @@
           <mxGeometry x="60" y="80" width="100" height="1270" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
-          <mxGeometry x="45" y="90" width="10" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
-          <mxGeometry x="45" y="630" width="10" height="490" as="geometry" />
-        </mxCell>
-        <mxCell id="6M8pOEJlPFOB4L0owge0-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="7baba1c4bc27f4b0-2">
-          <mxGeometry x="45" y="340" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="90" width="10" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-3" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="220" y="80" width="100" height="1270" as="geometry" />
@@ -75,7 +69,7 @@
             <mxPoint x="405" y="310" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" value="0:00定期実行" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-14" value="DB更新要求" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="115" y="186.33333333333337" as="sourcePoint" />
             <mxPoint x="265" y="186.00000000000034" as="targetPoint" />
@@ -84,10 +78,10 @@
         <mxCell id="7baba1c4bc27f4b0-41" value="&lt;div&gt;証明書&lt;br&gt;&lt;/div&gt;&lt;div&gt;テーブル&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="650" y="30" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-42" value="G3証明書検索&lt;br&gt;システム" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+        <mxCell id="7baba1c4bc27f4b0-42" value="G3証明書検索&lt;br&gt;メソッド" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="220" y="30" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-43" value="&lt;div&gt;メール送信&lt;/div&gt;&lt;div&gt;システム&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+        <mxCell id="7baba1c4bc27f4b0-43" value="&lt;div&gt;メール送信&lt;/div&gt;&lt;div&gt;メソッド&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="360" y="30" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-44" value="&lt;div&gt;G3証明書残存&lt;/div&gt;&lt;div&gt;数確認システム&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
@@ -138,7 +132,7 @@
           <mxGeometry x="930" y="30" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="7ugP54rllSGBO8FwJjmD-1" value="&lt;div&gt;最終日のみ&lt;/div&gt;&lt;div&gt;全数検索&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1350" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="1350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6M8pOEJlPFOB4L0owge0-2" value="DB更新" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="6M8pOEJlPFOB4L0owge0-3">
           <mxGeometry relative="1" as="geometry">
@@ -152,9 +146,9 @@
         <mxCell id="6M8pOEJlPFOB4L0owge0-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="695" y="430" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="6M8pOEJlPFOB4L0owge0-5" value="レコード抽出" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="6M8pOEJlPFOB4L0owge0-1" target="6M8pOEJlPFOB4L0owge0-4">
+        <mxCell id="6M8pOEJlPFOB4L0owge0-5" value="レコード抽出" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="6M8pOEJlPFOB4L0owge0-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="436" as="sourcePoint" />
+            <mxPoint x="115" y="436" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="280" y="436" />
             </Array>
@@ -164,9 +158,9 @@
         <mxCell id="6M8pOEJlPFOB4L0owge0-7" value="&lt;div&gt;証明書&lt;/div&gt;&lt;div&gt;レコード&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="360" y="450" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="6M8pOEJlPFOB4L0owge0-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="6M8pOEJlPFOB4L0owge0-4" target="6M8pOEJlPFOB4L0owge0-1">
+        <mxCell id="6M8pOEJlPFOB4L0owge0-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="6M8pOEJlPFOB4L0owge0-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="275" y="540" as="targetPoint" />
+            <mxPoint x="115" y="540" as="targetPoint" />
             <Array as="points">
               <mxPoint x="350" y="540" />
               <mxPoint x="350" y="530" />
@@ -184,7 +178,7 @@
         <mxCell id="sHYgj95xDzqxYKDH3hfH-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="sHYgj95xDzqxYKDH3hfH-1">
           <mxGeometry x="45" y="640" width="10" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="sHYgj95xDzqxYKDH3hfH-4" value="&lt;div&gt;統計情報&lt;/div&gt;&lt;div&gt;システム&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="sHYgj95xDzqxYKDH3hfH-4" value="&lt;div&gt;統計情報&lt;/div&gt;&lt;div&gt;メソッド&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="500" y="30" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="pEoBLkRFbzQR7aDPuQVB-3" value="統計情報要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="7baba1c4bc27f4b0-19" target="sHYgj95xDzqxYKDH3hfH-3">
@@ -278,7 +272,7 @@
         <mxCell id="Yc9LPZd54kfcNAisiiT4-12" value="ログファイル&lt;br&gt;検索画面" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="Yc9LPZd54kfcNAisiiT4-1" vertex="1">
           <mxGeometry x="180" y="40" width="100" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="Yc9LPZd54kfcNAisiiT4-13" value="&lt;div&gt;統計情報&lt;/div&gt;&lt;div&gt;システム&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="Yc9LPZd54kfcNAisiiT4-1" vertex="1">
+        <mxCell id="Yc9LPZd54kfcNAisiiT4-13" value="&lt;div&gt;統計情報&lt;/div&gt;&lt;div&gt;メソッド&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="Yc9LPZd54kfcNAisiiT4-1" vertex="1">
           <mxGeometry x="340" y="40" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Yc9LPZd54kfcNAisiiT4-14" value="対象ログファイル要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.1;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Yc9LPZd54kfcNAisiiT4-1" target="W7dWz1kp4wgY2yXRsOQH-1" edge="1">
@@ -390,7 +384,7 @@
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-1" parent="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-2" value="証明書テーブル" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
-          <mxGeometry x="130" y="130" width="410" height="310" as="geometry" />
+          <mxGeometry x="130" y="130" width="410" height="280" as="geometry" />
         </mxCell>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="xNdc0RXTt3TWQ51rv9bm-2" vertex="1">
           <mxGeometry y="30" width="410" height="30" as="geometry" />
@@ -452,7 +446,7 @@
         <mxCell id="S10ciwwF3dUFgWYTBpzD-13" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-12">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S10ciwwF3dUFgWYTBpzD-14" value="証明書種別　・・・G3, G4, G2以前, 他社" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-12">
+        <mxCell id="S10ciwwF3dUFgWYTBpzD-14" value="証明書ステータス　・・・G3, G4, G2以前, 他社" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-12">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S10ciwwF3dUFgWYTBpzD-22" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-2">
@@ -464,20 +458,11 @@
         <mxCell id="S10ciwwF3dUFgWYTBpzD-24" value="ワイルドカードフラグ" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-22">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VoTuy1cHTN4wAMZRFpsM-3" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-2">
-          <mxGeometry y="270" width="410" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VoTuy1cHTN4wAMZRFpsM-4" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="VoTuy1cHTN4wAMZRFpsM-3">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="VoTuy1cHTN4wAMZRFpsM-5" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="VoTuy1cHTN4wAMZRFpsM-3">
-          <mxGeometry x="30" width="380" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-19" value="&lt;font style=&quot;font-size: 16px&quot;&gt;証明書DB&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
           <mxGeometry x="70" y="20" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="CZ3C-mX2T2PzIuTbFp0X-0" value="指定事業者テーブル" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-1">
-          <mxGeometry x="130" y="500" width="410" height="170" as="geometry" />
+          <mxGeometry x="130" y="500" width="410" height="130" as="geometry" />
         </mxCell>
         <mxCell id="CZ3C-mX2T2PzIuTbFp0X-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="CZ3C-mX2T2PzIuTbFp0X-0">
           <mxGeometry y="30" width="410" height="30" as="geometry" />
@@ -506,15 +491,6 @@
         <mxCell id="VoTuy1cHTN4wAMZRFpsM-8" value="指定事業者CN" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="VoTuy1cHTN4wAMZRFpsM-6">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CZ3C-mX2T2PzIuTbFp0X-7" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="CZ3C-mX2T2PzIuTbFp0X-0">
-          <mxGeometry y="120" width="410" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ3C-mX2T2PzIuTbFp0X-8" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="CZ3C-mX2T2PzIuTbFp0X-7">
-          <mxGeometry width="30" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="CZ3C-mX2T2PzIuTbFp0X-9" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="CZ3C-mX2T2PzIuTbFp0X-7">
-          <mxGeometry x="30" width="380" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="tRMlBVedTwhgiJ49p7vl-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="xNdc0RXTt3TWQ51rv9bm-1" source="xNdc0RXTt3TWQ51rv9bm-6" target="CZ3C-mX2T2PzIuTbFp0X-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -538,7 +514,7 @@
         <mxCell id="z-T4OEhkut_5lJJbPGwb-4" value="Webアプリ" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=30;" parent="z-T4OEhkut_5lJJbPGwb-1" vertex="1">
           <mxGeometry x="140" y="360" width="520" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="z-T4OEhkut_5lJJbPGwb-7" value="&lt;div&gt;定時実行され作成されたログをもとに&lt;/div&gt;&lt;div&gt;メールが送信される&lt;/div&gt;&lt;div&gt;（実行ログファイル・エラーログファイルの添付、統計情報など）&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="z-T4OEhkut_5lJJbPGwb-1" vertex="1">
+        <mxCell id="z-T4OEhkut_5lJJbPGwb-7" value="&lt;div&gt;定時実行され作成されたログをもとに&lt;/div&gt;&lt;div&gt;メールが送信される&lt;/div&gt;&lt;div&gt;（実行ログファイル・エラーログファイルの添付）&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="z-T4OEhkut_5lJJbPGwb-1" vertex="1">
           <mxGeometry x="273" y="120" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="z-T4OEhkut_5lJJbPGwb-8" value="" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="z-T4OEhkut_5lJJbPGwb-1" source="z-T4OEhkut_5lJJbPGwb-3" target="z-T4OEhkut_5lJJbPGwb-7" edge="1">
@@ -553,10 +529,10 @@
         <mxCell id="z-T4OEhkut_5lJJbPGwb-9" value="管理者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="z-T4OEhkut_5lJJbPGwb-1" vertex="1">
           <mxGeometry x="710" y="920" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z-T4OEhkut_5lJJbPGwb-10" value="&lt;div&gt;対象時点の残存G3証明書を検索する&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="z-T4OEhkut_5lJJbPGwb-1" vertex="1">
+        <mxCell id="z-T4OEhkut_5lJJbPGwb-10" value="&lt;div&gt;対象時点の残存G3証明書を表示する&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="z-T4OEhkut_5lJJbPGwb-1" vertex="1">
           <mxGeometry x="279.25" y="400" width="230.75" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="M104QInt5ufLcqO0C05E-0" value="&lt;div&gt;対象時点の統計情報&lt;/div&gt;&lt;div&gt;（残存数、指定事業者別残存数）&lt;/div&gt;&lt;div&gt;を検索する&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="z-T4OEhkut_5lJJbPGwb-1">
+        <mxCell id="M104QInt5ufLcqO0C05E-0" value="&lt;div&gt;対象時点の統計情報&lt;/div&gt;&lt;div&gt;（残存数、指定事業者別残存数）&lt;/div&gt;&lt;div&gt;を表示する&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="z-T4OEhkut_5lJJbPGwb-1">
           <mxGeometry x="280" y="520" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="M104QInt5ufLcqO0C05E-4" value="ユーザ" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="z-T4OEhkut_5lJJbPGwb-1">
@@ -594,23 +570,14 @@
       <root>
         <mxCell id="YtEUYzlKoqCMShlGBFVR-0" />
         <mxCell id="YtEUYzlKoqCMShlGBFVR-1" parent="YtEUYzlKoqCMShlGBFVR-0" />
-        <mxCell id="YtEUYzlKoqCMShlGBFVR-2" value="&lt;div&gt;カレンダー選択&lt;/div&gt;&lt;div&gt;（デフォルトを最新日）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
-          <mxGeometry x="40" y="40" width="150" height="60" as="geometry" />
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-4" value="&lt;div&gt;tableで表示&lt;/div&gt;&lt;div&gt;CN、組織名、証明書タイプ、指定事業者CN、発行日、失効日&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
+          <mxGeometry x="199" y="310" width="430" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="YtEUYzlKoqCMShlGBFVR-3" value="&lt;div&gt;指定事業者選択&lt;/div&gt;（ALLをデフォルト）" style="rounded=0;whiteSpace=wrap;html=1;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
-          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="YtEUYzlKoqCMShlGBFVR-5" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;統計情報&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;　　G3証明書残存数：　XX&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;　　指定事業者：　XX&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
+          <mxGeometry x="200" y="140" width="430" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="YtEUYzlKoqCMShlGBFVR-4" value="&lt;div&gt;tableで表示&lt;/div&gt;&lt;div&gt;CN、証明書タイプ、指定事業者、発行日、失効日&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
-          <mxGeometry x="40" y="330" width="430" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="YtEUYzlKoqCMShlGBFVR-5" value="統計情報" style="rounded=0;whiteSpace=wrap;html=1;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
-          <mxGeometry x="40" y="240" width="430" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YtEUYzlKoqCMShlGBFVR-6" value="get" style="rounded=1;whiteSpace=wrap;html=1;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
-          <mxGeometry x="40" y="190" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YtEUYzlKoqCMShlGBFVR-7" value="reset" style="rounded=1;whiteSpace=wrap;html=1;" parent="YtEUYzlKoqCMShlGBFVR-1" vertex="1">
-          <mxGeometry x="120" y="190" width="60" height="30" as="geometry" />
+        <mxCell id="KrCthhyAzthjJhdrj-sD-0" value="&lt;font style=&quot;font-size: 18px&quot;&gt;2020/**/** 時点　残存G3証明書&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YtEUYzlKoqCMShlGBFVR-1">
+          <mxGeometry x="199" y="40" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
