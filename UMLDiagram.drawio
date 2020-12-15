@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T06:19:16.933Z" agent="5.0 (Windows)" etag="UgGlbTLP_r1GAsEpm3xM" version="14.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-15T06:28:40.724Z" agent="5.0 (Windows)" etag="8uK--sdaCPTwQAwlEKX-" version="14.0.1" type="github" pages="6">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -384,7 +384,7 @@
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-1" parent="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-2" value="証明書テーブル" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
-          <mxGeometry x="130" y="130" width="410" height="280" as="geometry" />
+          <mxGeometry x="130" y="130" width="410" height="340" as="geometry" />
         </mxCell>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="xNdc0RXTt3TWQ51rv9bm-2" vertex="1">
           <mxGeometry y="30" width="410" height="30" as="geometry" />
@@ -456,6 +456,24 @@
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S10ciwwF3dUFgWYTBpzD-24" value="ワイルドカードフラグ" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-22">
+          <mxGeometry x="30" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3qN1yCsbOKQ0tz2en5-0" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-2">
+          <mxGeometry y="270" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3qN1yCsbOKQ0tz2en5-1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="gr3qN1yCsbOKQ0tz2en5-0">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3qN1yCsbOKQ0tz2en5-2" value="レコード更新日時" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="gr3qN1yCsbOKQ0tz2en5-0">
+          <mxGeometry x="30" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3qN1yCsbOKQ0tz2en5-3" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-2">
+          <mxGeometry y="300" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3qN1yCsbOKQ0tz2en5-4" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="gr3qN1yCsbOKQ0tz2en5-3">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gr3qN1yCsbOKQ0tz2en5-5" value="レコード登録日" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="gr3qN1yCsbOKQ0tz2en5-3">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-19" value="&lt;font style=&quot;font-size: 16px&quot;&gt;証明書DB&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
