@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T08:32:22.775Z" agent="5.0 (Windows)" etag="2e25bDZRZcZ2QcG8AvIm" version="14.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-16T08:33:35.681Z" agent="5.0 (Windows)" etag="LlkoQA2p0TaXJGFJ9y93" version="14.0.1" type="github" pages="6">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="968" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -485,7 +485,7 @@
         <mxCell id="CZ3C-mX2T2PzIuTbFp0X-5" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=10;" parent="CZ3C-mX2T2PzIuTbFp0X-4" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CZ3C-mX2T2PzIuTbFp0X-6" value="指定事業者名（O）" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=10;" parent="CZ3C-mX2T2PzIuTbFp0X-4" vertex="1">
+        <mxCell id="CZ3C-mX2T2PzIuTbFp0X-6" value="指定事業者名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=10;" parent="CZ3C-mX2T2PzIuTbFp0X-4" vertex="1">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VoTuy1cHTN4wAMZRFpsM-6" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontSize=10;" parent="CZ3C-mX2T2PzIuTbFp0X-0" vertex="1">
