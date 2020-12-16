@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T06:28:40.724Z" agent="5.0 (Windows)" etag="8uK--sdaCPTwQAwlEKX-" version="14.0.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-16T07:20:39.233Z" agent="5.0 (Windows)" etag="CMpLBKoeKakrdSHv5b7t" version="14.0.1" type="github" pages="6">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="685" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,7 +234,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="m0Q9sx268DfUwjhK4s5F" name="シーケンス図（WEB UI）">
-    <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="685" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Yc9LPZd54kfcNAisiiT4-0" />
         <mxCell id="Yc9LPZd54kfcNAisiiT4-1" parent="Yc9LPZd54kfcNAisiiT4-0" />
@@ -379,7 +379,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nB8A7hhR7iNcvrRYf5c8" name="ER図">
-    <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="445" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-1" parent="xNdc0RXTt3TWQ51rv9bm-0" />
@@ -410,7 +410,7 @@
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-10" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="xNdc0RXTt3TWQ51rv9bm-9" vertex="1">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xNdc0RXTt3TWQ51rv9bm-11" value="DNコモンネーム" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="xNdc0RXTt3TWQ51rv9bm-9" vertex="1">
+        <mxCell id="xNdc0RXTt3TWQ51rv9bm-11" value="CN" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="xNdc0RXTt3TWQ51rv9bm-9" vertex="1">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S10ciwwF3dUFgWYTBpzD-15" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-2">
@@ -419,7 +419,7 @@
         <mxCell id="S10ciwwF3dUFgWYTBpzD-16" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-15">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="S10ciwwF3dUFgWYTBpzD-17" value="DN組織名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-15">
+        <mxCell id="S10ciwwF3dUFgWYTBpzD-17" value="組織名" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="S10ciwwF3dUFgWYTBpzD-15">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S10ciwwF3dUFgWYTBpzD-9" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-2">
@@ -509,8 +509,11 @@
         <mxCell id="VoTuy1cHTN4wAMZRFpsM-8" value="指定事業者CN" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="VoTuy1cHTN4wAMZRFpsM-6">
           <mxGeometry x="30" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tRMlBVedTwhgiJ49p7vl-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="xNdc0RXTt3TWQ51rv9bm-1" source="xNdc0RXTt3TWQ51rv9bm-6" target="CZ3C-mX2T2PzIuTbFp0X-1">
+        <mxCell id="tRMlBVedTwhgiJ49p7vl-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERzeroToMany;startFill=1;" edge="1" parent="xNdc0RXTt3TWQ51rv9bm-1" source="xNdc0RXTt3TWQ51rv9bm-6" target="CZ3C-mX2T2PzIuTbFp0X-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jpyMPL0xEPXDuA_6fjCE-0" value="&amp;lt;diagram/&amp;gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-1">
+          <mxGeometry x="150" y="730" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -601,7 +604,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IBcU2G9TVg5Ephww0j9S" name="システム概要図">
-    <mxGraphModel dx="1208" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="685" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pGGhC-z__XLMcfg5fvzm-0" />
         <mxCell id="pGGhC-z__XLMcfg5fvzm-1" parent="pGGhC-z__XLMcfg5fvzm-0" />
