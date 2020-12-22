@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T02:22:12.088Z" agent="5.0 (Windows)" etag="qpqiHpGn6RdsMFs3622R" version="14.0.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-22T04:38:49.843Z" agent="5.0 (Windows)" etag="m3sEPEPJJT7iodPebz-O" version="14.0.4" type="github" pages="6">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="936" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nB8A7hhR7iNcvrRYf5c8" name="ER図">
-    <mxGraphModel dx="936" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1176" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-1" parent="xNdc0RXTt3TWQ51rv9bm-0" />
@@ -449,11 +449,8 @@
         <mxCell id="hdk2BQIObJoUqIMHR8MU-135" value="wildcard_flag ( boolean )" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=10;" vertex="1" parent="hdk2BQIObJoUqIMHR8MU-133">
           <mxGeometry x="30" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hdk2BQIObJoUqIMHR8MU-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERzeroToMany;endFill=1;startArrow=ERmandOne;startFill=0;" edge="1" parent="xNdc0RXTt3TWQ51rv9bm-1" source="CZ3C-mX2T2PzIuTbFp0X-0" target="xNdc0RXTt3TWQ51rv9bm-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="CZ3C-mX2T2PzIuTbFp0X-0" value="Agent" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=10;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
-          <mxGeometry x="620" y="690" width="150" height="130" as="geometry" />
+          <mxGeometry x="240" y="810" width="150" height="130" as="geometry" />
         </mxCell>
         <mxCell id="CZ3C-mX2T2PzIuTbFp0X-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontSize=10;" parent="CZ3C-mX2T2PzIuTbFp0X-0" vertex="1">
           <mxGeometry y="30" width="150" height="30" as="geometry" />
@@ -709,9 +706,6 @@
         </mxCell>
         <mxCell id="hdk2BQIObJoUqIMHR8MU-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmandOne;endFill=0;startArrow=ERmandOne;startFill=0;" edge="1" parent="xNdc0RXTt3TWQ51rv9bm-1" source="hdk2BQIObJoUqIMHR8MU-121" target="xNdc0RXTt3TWQ51rv9bm-9">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hdk2BQIObJoUqIMHR8MU-147" value="Domain の joint_agent_idはなくてもいいが、あるとコーディングが楽そうなので追加" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-1">
-          <mxGeometry x="332" y="680" width="246" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
