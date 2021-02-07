@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T04:58:01.114Z" agent="5.0 (Windows)" etag="57SEmG8l_SllW1WPozFP" version="14.2.7" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-07T05:56:49.719Z" agent="5.0 (Windows)" etag="o0Vviok9GsIGI6vjVdxW" version="14.2.9" type="github" pages="6">
   <diagram name="シーケンス図（定期実行）" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1374" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="953" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,7 +46,7 @@
         <mxCell id="7baba1c4bc27f4b0-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=11;align=center;" parent="1" vertex="1">
           <mxGeometry x="421" y="205" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-17" value="レコード抽出" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" target="7baba1c4bc27f4b0-16" edge="1" source="7baba1c4bc27f4b0-13">
+        <mxCell id="7baba1c4bc27f4b0-17" value="レコード抽出" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-13" target="7baba1c4bc27f4b0-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="193" y="211" as="sourcePoint" />
             <Array as="points">
@@ -55,7 +55,7 @@
             <mxPoint x="323" y="211" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-21" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-16" edge="1" target="7baba1c4bc27f4b0-13">
+        <mxCell id="7baba1c4bc27f4b0-21" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-16" target="7baba1c4bc27f4b0-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="193" y="315" as="targetPoint" />
             <Array as="points">
@@ -66,7 +66,7 @@
             <mxPoint x="323" y="315" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" value="証明書検証要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" target="7baba1c4bc27f4b0-13" edge="1" source="7baba1c4bc27f4b0-10">
+        <mxCell id="7baba1c4bc27f4b0-14" value="証明書検証要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="81" y="199.33333333333337" as="sourcePoint" />
             <mxPoint x="177" y="199.33333333333337" as="targetPoint" />
@@ -93,7 +93,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HY1Ta8MhCHpQZ7dJACeX-7" value="ログファイル取得" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" target="HY1Ta8MhCHpQZ7dJACeX-6" edge="1" source="7baba1c4bc27f4b0-19">
+        <mxCell id="HY1Ta8MhCHpQZ7dJACeX-7" value="ログファイル取得" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-19" target="HY1Ta8MhCHpQZ7dJACeX-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="861" as="sourcePoint" />
             <mxPoint x="579" y="812.3333333333334" as="targetPoint" />
@@ -106,7 +106,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="HY1Ta8MhCHpQZ7dJACeX-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="HY1Ta8MhCHpQZ7dJACeX-6" edge="1" target="7baba1c4bc27f4b0-19">
+        <mxCell id="HY1Ta8MhCHpQZ7dJACeX-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="HY1Ta8MhCHpQZ7dJACeX-6" target="7baba1c4bc27f4b0-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="1015" as="targetPoint" />
             <Array as="points">
@@ -160,7 +160,7 @@
         <mxCell id="CmsKR4PzdkKorJ2YjDzW-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=11;align=center;" parent="sHYgj95xDzqxYKDH3hfH-1" vertex="1">
           <mxGeometry x="37" y="366" width="10" height="324" as="geometry" />
         </mxCell>
-        <mxCell id="pEoBLkRFbzQR7aDPuQVB-10" value="メール送信" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" target="7baba1c4bc27f4b0-9" edge="1" source="7baba1c4bc27f4b0-19">
+        <mxCell id="pEoBLkRFbzQR7aDPuQVB-10" value="メール送信" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-19" target="7baba1c4bc27f4b0-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="1071" as="sourcePoint" />
             <mxPoint x="778" y="1010.0250000000001" as="targetPoint" />
@@ -171,7 +171,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3J9QN7l3dyGxSfjtafIO-3" value="メール送信要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1" target="7baba1c4bc27f4b0-19">
+        <mxCell id="3J9QN7l3dyGxSfjtafIO-3" value="メール送信要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" target="7baba1c4bc27f4b0-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="81" y="841" as="sourcePoint" />
             <mxPoint x="420" y="841" as="targetPoint" />
@@ -196,7 +196,7 @@
         <mxCell id="erE-x3cqSHiAK_1Vf2YG-5" value="※ 初日・最終日のみ全数検索を行う" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="20" y="1120" width="235" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="CmsKR4PzdkKorJ2YjDzW-1" value="実行ログ出力" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" target="CmsKR4PzdkKorJ2YjDzW-2" edge="1" source="7baba1c4bc27f4b0-13">
+        <mxCell id="CmsKR4PzdkKorJ2YjDzW-1" value="実行ログ出力" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-13" target="CmsKR4PzdkKorJ2YjDzW-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="196" y="370" as="sourcePoint" />
             <mxPoint x="525" y="370" as="targetPoint" />
@@ -251,7 +251,7 @@
         <mxCell id="M6RE8vuyZKTG9yUmDJsp-4" value="指定事業者&lt;br&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;レコード&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=center;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="331" y="650" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="v0KhaSbGfKnjUJKuzOqm-1" value="統計情報出力要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="7baba1c4bc27f4b0-10" target="CmsKR4PzdkKorJ2YjDzW-6">
+        <mxCell id="v0KhaSbGfKnjUJKuzOqm-1" value="統計情報出力要求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="CmsKR4PzdkKorJ2YjDzW-6" edge="1">
           <mxGeometry x="0.0459" y="10" relative="1" as="geometry">
             <mxPoint x="85" y="480.33333333333337" as="sourcePoint" />
             <mxPoint x="190" y="480" as="targetPoint" />
@@ -264,7 +264,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v0KhaSbGfKnjUJKuzOqm-2" value="終了" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="7baba1c4bc27f4b0-13" target="7baba1c4bc27f4b0-10">
+        <mxCell id="v0KhaSbGfKnjUJKuzOqm-2" value="終了" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-13" target="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="85" y="440" as="targetPoint" />
             <Array as="points">
@@ -275,7 +275,7 @@
             <mxPoint x="422" y="440" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v0KhaSbGfKnjUJKuzOqm-3" value="終了" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="CmsKR4PzdkKorJ2YjDzW-6" target="7baba1c4bc27f4b0-10">
+        <mxCell id="v0KhaSbGfKnjUJKuzOqm-3" value="終了" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="CmsKR4PzdkKorJ2YjDzW-6" target="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="125" y="801" as="targetPoint" />
             <Array as="points">
@@ -289,7 +289,7 @@
             <mxPoint x="235" y="800" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v0KhaSbGfKnjUJKuzOqm-4" value="終了" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="7baba1c4bc27f4b0-19" target="7baba1c4bc27f4b0-10">
+        <mxCell id="v0KhaSbGfKnjUJKuzOqm-4" value="終了" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-19" target="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="79.5" y="1071" as="targetPoint" />
             <Array as="points">
@@ -427,12 +427,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nB8A7hhR7iNcvrRYf5c8" name="ER図">
-    <mxGraphModel dx="1374" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="953" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-1" parent="xNdc0RXTt3TWQ51rv9bm-0" />
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-2" value="Domain" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=10;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
-          <mxGeometry x="470" y="200" width="300" height="220" as="geometry" />
+          <mxGeometry x="470" y="200" width="300" height="250" as="geometry" />
         </mxCell>
         <mxCell id="xNdc0RXTt3TWQ51rv9bm-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontSize=10;" parent="xNdc0RXTt3TWQ51rv9bm-2" vertex="1">
           <mxGeometry y="30" width="300" height="30" as="geometry" />
@@ -488,6 +488,15 @@
         <mxCell id="OTWs2qiqMIknJuvNCFPO-2" value="joint_agent_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=10;" parent="OTWs2qiqMIknJuvNCFPO-0" vertex="1">
           <mxGeometry x="30" width="270" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ccpBDxnI5Dk_2Jl9jSM_-0" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontSize=10;" vertex="1" parent="xNdc0RXTt3TWQ51rv9bm-2">
+          <mxGeometry y="210" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ccpBDxnI5Dk_2Jl9jSM_-1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=10;" vertex="1" parent="ccpBDxnI5Dk_2Jl9jSM_-0">
+          <mxGeometry width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ccpBDxnI5Dk_2Jl9jSM_-2" value="two_way_flag (boolean)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=10;" vertex="1" parent="ccpBDxnI5Dk_2Jl9jSM_-0">
+          <mxGeometry x="30" width="270" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="CZ3C-mX2T2PzIuTbFp0X-0" value="Agent" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=10;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
           <mxGeometry x="480" y="590" width="150" height="100" as="geometry" />
         </mxCell>
@@ -512,13 +521,13 @@
         <mxCell id="bgB5v8usB2MaBNbc5BYQ-0" value="&lt;div style=&quot;font-size: 14px&quot; align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;【G3証明書残留件数確認システム】　ER図&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontSize=14;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
           <mxGeometry x="20" y="30" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bgB5v8usB2MaBNbc5BYQ-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;作成日：2021/01/28&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
+        <mxCell id="bgB5v8usB2MaBNbc5BYQ-1" value="&lt;font style=&quot;font-size: 14px&quot;&gt;作成日：2021/02/07&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
           <mxGeometry x="380" y="30" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bgB5v8usB2MaBNbc5BYQ-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;作成者：淺野　稜&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
           <mxGeometry x="530" y="30" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bgB5v8usB2MaBNbc5BYQ-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Ver 2.1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
+        <mxCell id="bgB5v8usB2MaBNbc5BYQ-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Ver 3.0&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
           <mxGeometry x="680" y="30" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hdk2BQIObJoUqIMHR8MU-10" value="Certificate" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=10;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
@@ -686,7 +695,7 @@
         <mxCell id="hdk2BQIObJoUqIMHR8MU-129" value="issue_available_date" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontSize=10;" parent="hdk2BQIObJoUqIMHR8MU-127" vertex="1">
           <mxGeometry x="30" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hdk2BQIObJoUqIMHR8MU-136" value="&lt;div align=&quot;left&quot;&gt;Ver.2&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;テーブル構成の変更&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;（Certificate（生データ）、Domain（作業テーブル）、WildCard、Agent）&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Ver.2.1&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;domainテーブルにjoint_agent_idのカラム追加&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
+        <mxCell id="hdk2BQIObJoUqIMHR8MU-136" value="&lt;div align=&quot;left&quot;&gt;Ver.2&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;テーブル構成の変更&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;（Certificate（生データ）、Domain（作業テーブル）、WildCard、Agent）&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Ver.2.1&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;domainテーブルにjoint_agent_idのカラム追加&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Ver 3&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;two_way_flagの追加&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="xNdc0RXTt3TWQ51rv9bm-1" vertex="1">
           <mxGeometry x="570" y="950" width="220" height="180" as="geometry" />
         </mxCell>
         <mxCell id="hdk2BQIObJoUqIMHR8MU-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERmandOne;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="xNdc0RXTt3TWQ51rv9bm-1" source="CZ3C-mX2T2PzIuTbFp0X-4" target="hdk2BQIObJoUqIMHR8MU-20" edge="1">
